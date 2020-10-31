@@ -6,8 +6,10 @@ function App(){
 
   return(
     <div className="app">
-      <h1>Hello Reformers...</h1>
-      <Tweet/>
+      <Tweet name="wizard calidad"/> 
+      <Tweet name="Qoyum Yusuf"/> 
+      <Tweet name="Splendour Olatunde"/>
+      <Tweet name="Galibah Yusuf"/>  
     </div>
   );
 }
