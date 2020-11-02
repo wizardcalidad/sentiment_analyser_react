@@ -20,7 +20,7 @@ const MyNav = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-light" style={{backgroundColor:"blue"}}>
   <a class="navbar-brand" href="#">OLÓÒTÓ</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
