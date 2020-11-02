@@ -15,7 +15,7 @@ function App(){
     <MyNav />
     
        <div className="app">
-      <h1>OLÓÒTÓ- is a platform where you can analyze your tweets as been a good or a bad comment...</h1>
+      <h1>OLÓÒTÓ- is a platform where you can analyze tweets and product reviews to derive insights of bad comments, hate speech or an acknowledgement...</h1>
       <Tweet name="Analyze"/>
       <Result name="Analyze All Models"/>
       
