@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 import { CheckButton, Title, Label } from './style';
 
 
 function Result({name, message}){
+
     return(
        <div className="tweet">
 
