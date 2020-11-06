@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import './App.css';
-import { CheckButton, Title, Label } from './style';
+import '../App.css';
+import { CheckButton, Title, Label } from '../style';
 
 
 function Result({name, message}){
@@ -23,7 +23,7 @@ function Result({name, message}){
           <h4 class="modal-title">ALL RESULTs</h4>
         </div>
         <div class="modal-body">
-          <p><a href="#">It is:</a></p>
+    <p><a href="#">It is:</a></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
