@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { CheckButton, Title, Label, Select, Container } from '../style';
+import { Title, Label, Select, Container } from '../style';
 
 
 function Tweet({ name, message, handleChange, handleSubmit}){
@@ -34,15 +34,6 @@ function Tweet({ name, message, handleChange, handleSubmit}){
             </Container>
             <button type="submit" class="btn btn-sm"  style={{backgroundColor:"blue", color:"white"}}>Check</button>
             </form>
-            {/* <CheckButton onSubmit={handleSubmit} > */}
-            {/* <div class="container"> */}
-  
-  
-{/* </div> */}
-
-      {/* Check */}
-
-            {/* </CheckButton> */}
         </div>
     );
 }
